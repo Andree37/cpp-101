@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/andre/github/andree37/cpp-101/02-iostream-intro/build",
+		"source" : "02-iostream-intro"
+	}
+}
