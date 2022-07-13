@@ -166,6 +166,9 @@
 		},
 		{
 			"path" : "06-conversions/CMakeLists.txt"
+		},
+		{
+			"path" : "07-input-line/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

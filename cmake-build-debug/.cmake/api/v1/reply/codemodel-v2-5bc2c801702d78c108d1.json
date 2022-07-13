@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -128,6 +129,21 @@
 					[
 						6
 					]
+				},
+				{
+					"build" : "/Users/andre/github/andree37/cpp-101/07-input-line/build",
+					"jsonFile" : "directory-07-input-line-Debug-c7b0b0d721a9c310ccaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "07-input-line",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
 			"name" : "Debug",
@@ -142,7 +158,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"directoryIndexes" : 
 					[
@@ -227,11 +244,23 @@
 					[
 						7
 					],
-					"name" : "05-functions-intro",
+					"name" : "06-conversions",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "07-input-line",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
 					]
 				}
 			],
@@ -285,6 +314,13 @@
 					"jsonFile" : "target-06-conversions-Debug-c2c8fa109f168b4a2842.json",
 					"name" : "06-conversions",
 					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "07-input-line::@1265147b36611a9297f4",
+					"jsonFile" : "target-07-input-line-Debug-7a2bc17711139f348686.json",
+					"name" : "07-input-line",
+					"projectIndex" : 8
 				}
 			]
 		}

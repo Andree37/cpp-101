@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/andre/github/andree37/cpp-101/04-chapter01-quiz/build/cmake_install.cmake")
   include("/Users/andre/github/andree37/cpp-101/05-functions-intro/build/cmake_install.cmake")
   include("/Users/andre/github/andree37/cpp-101/06-conversions/build/cmake_install.cmake")
+  include("/Users/andre/github/andree37/cpp-101/07-input-line/build/cmake_install.cmake")
 
 endif()
 

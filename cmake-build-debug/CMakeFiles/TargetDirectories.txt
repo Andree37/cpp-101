@@ -21,3 +21,6 @@
 /Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/06-conversions.dir
 /Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/edit_cache.dir
 /Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/rebuild_cache.dir
+/Users/andre/github/andree37/cpp-101/07-input-line/build/CMakeFiles/07-input-line.dir
+/Users/andre/github/andree37/cpp-101/07-input-line/build/CMakeFiles/edit_cache.dir
+/Users/andre/github/andree37/cpp-101/07-input-line/build/CMakeFiles/rebuild_cache.dir

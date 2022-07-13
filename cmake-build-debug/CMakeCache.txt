@@ -69,13 +69,31 @@
 04-chatper01-quiz_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/04-chapter01-quiz
 
 //Value Computed by CMake
-05-functions-intro_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions/build
+05-functions-intro_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/05-functions-intro/build
 
 //Value Computed by CMake
 05-functions-intro_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-05-functions-intro_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions
+05-functions-intro_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/05-functions-intro
+
+//Value Computed by CMake
+06-conversions_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions/build
+
+//Value Computed by CMake
+06-conversions_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+06-conversions_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions
+
+//Value Computed by CMake
+07-input-line_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/07-input-line/build
+
+//Value Computed by CMake
+07-input-line_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+07-input-line_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/07-input-line
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -369,7 +387,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
