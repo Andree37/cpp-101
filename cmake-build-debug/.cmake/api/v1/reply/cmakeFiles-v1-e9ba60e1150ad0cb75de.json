@@ -163,6 +163,9 @@
 		},
 		{
 			"path" : "05-functions-intro/CMakeLists.txt"
+		},
+		{
+			"path" : "06-conversions/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

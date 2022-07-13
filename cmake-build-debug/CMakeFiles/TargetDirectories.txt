@@ -18,3 +18,6 @@
 /Users/andre/github/andree37/cpp-101/05-functions-intro/build/CMakeFiles/05-functions-intro.dir
 /Users/andre/github/andree37/cpp-101/05-functions-intro/build/CMakeFiles/edit_cache.dir
 /Users/andre/github/andree37/cpp-101/05-functions-intro/build/CMakeFiles/rebuild_cache.dir
+/Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/06-conversions.dir
+/Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/edit_cache.dir
+/Users/andre/github/andree37/cpp-101/06-conversions/build/CMakeFiles/rebuild_cache.dir

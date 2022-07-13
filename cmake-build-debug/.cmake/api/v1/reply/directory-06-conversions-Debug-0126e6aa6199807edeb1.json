@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/andre/github/andree37/cpp-101/06-conversions/build",
+		"source" : "06-conversions"
+	}
+}

@@ -69,13 +69,13 @@
 04-chatper01-quiz_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/04-chapter01-quiz
 
 //Value Computed by CMake
-05-functions-intro_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/05-functions-intro/build
+05-functions-intro_BINARY_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions/build
 
 //Value Computed by CMake
 05-functions-intro_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-05-functions-intro_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/05-functions-intro
+05-functions-intro_SOURCE_DIR:STATIC=/Users/andre/github/andree37/cpp-101/06-conversions
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -369,7 +369,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -13,7 +13,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -112,6 +113,21 @@
 					[
 						5
 					]
+				},
+				{
+					"build" : "/Users/andre/github/andree37/cpp-101/06-conversions/build",
+					"jsonFile" : "directory-06-conversions-Debug-0126e6aa6199807edeb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "06-conversions",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Debug",
@@ -125,7 +141,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"directoryIndexes" : 
 					[
@@ -204,6 +221,18 @@
 					[
 						5
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "05-functions-intro",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"targets" : 
@@ -249,6 +278,13 @@
 					"jsonFile" : "target-05-functions-intro-Debug-a64a6f914f6b4c917957.json",
 					"name" : "05-functions-intro",
 					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "06-conversions::@370f8e1a50f4dc0d28a3",
+					"jsonFile" : "target-06-conversions-Debug-c2c8fa109f168b4a2842.json",
+					"name" : "06-conversions",
+					"projectIndex" : 7
 				}
 			]
 		}

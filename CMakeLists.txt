@@ -9,3 +9,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/02-iostream-intro" "${PROJECT_SOURCE_DIR
 add_subdirectory("${PROJECT_SOURCE_DIR}/03-first-program" "${PROJECT_SOURCE_DIR}/03-first-program/build")
 add_subdirectory("${PROJECT_SOURCE_DIR}/04-chapter01-quiz" "${PROJECT_SOURCE_DIR}/04-chapter01-quiz/build")
 add_subdirectory("${PROJECT_SOURCE_DIR}/05-functions-intro" "${PROJECT_SOURCE_DIR}/05-functions-intro/build")
+add_subdirectory("${PROJECT_SOURCE_DIR}/06-conversions" "${PROJECT_SOURCE_DIR}/06-conversions/build")
