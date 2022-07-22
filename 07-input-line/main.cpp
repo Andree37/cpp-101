@@ -10,14 +10,13 @@ void printStringView(std::string_view v) {
 }
 
 int main() {
-
     std::cout << "Enter your full name: ";
     std::string name{};
-    std::getline(std::cin >> std::ws, name); // read a full line
+    std::getline(std::cin >> std::ws, name);   // read a full line
 
     std::cout << "Enter your age: ";
     std::string age{};
-    std::getline(std::cin >> std::ws, age); // read a full line
+    std::getline(std::cin >> std::ws, age);   // read a full line
 
     std::cout << "Your name is " << name << " and you are " << age << " years old." << std::endl;
 
