@@ -5,16 +5,21 @@ void print_me(std::string& str) {
     std::cout << str << std::endl;
 }
 
-void print_me_but_no_changes(const std::string& str) {
+void print_me_but_ref(const std::string& str) {
     // this works as previous, but it ensures that we cannot change str inside this function
     std::cout << str << std::endl;
+}
+
+void print_me_but_address(std::string* str) {
+    // this prints the content on that address
+    std::cout << *str << std::endl;
 }
 
 int main() {
     std::string str{"hello there"};
     print_me(str);
-    print_me_but_no_changes(str);
-    print_me_but_no_changes("5");
+    print_me_but_ref(str);
+    print_me_but_ref("5");
 
     int x{5};
 
@@ -27,4 +32,9 @@ int main() {
     if (ptr1 == nullptr) {
         std::cout << "null pointer lel" << std::endl;
     }
+    int y = 10;
+    const int* const_ptr{&y};
+
+    // *const_ptr = 10; // cannot do this
+    print_me_but_address(&str);
 }
