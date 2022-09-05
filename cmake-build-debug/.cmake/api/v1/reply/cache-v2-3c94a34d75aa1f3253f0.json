@@ -182,42 +182,6 @@
 			"value" : "/Users/andre/github/andree37/cpp-101/04-chapter01-quiz"
 		},
 		{
-			"name" : "04-chatper01-quiz_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/andre/github/andree37/cpp-101/04-chapter01-quiz/build"
-		},
-		{
-			"name" : "04-chatper01-quiz_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "04-chatper01-quiz_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/andre/github/andree37/cpp-101/04-chapter01-quiz"
-		},
-		{
 			"name" : "05-functions-intro_BINARY_DIR",
 			"properties" : 
 			[
@@ -403,7 +367,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "22"
+			"value" : "23"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -415,7 +379,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -427,7 +391,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -439,7 +403,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/bin/cpack"
+			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/CLion.app/Contents/bin/cmake/mac/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -451,7 +415,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/bin/ctest"
+			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/CLion.app/Contents/bin/cmake/mac/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -895,7 +859,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/ninja/mac/ninja"
+			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/CLion.app/Contents/bin/ninja/mac/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1163,7 +1127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22"
+			"value" : "/Users/andre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",

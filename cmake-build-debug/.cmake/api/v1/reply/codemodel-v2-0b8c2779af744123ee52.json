@@ -269,56 +269,56 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "00-beginning::@6bc8135b843ad1bf9b38",
-					"jsonFile" : "target-00-beginning-Debug-e0b25d0c5b3252feafba.json",
+					"jsonFile" : "target-00-beginning-Debug-ef5cf008e897c13feec9.json",
 					"name" : "00-beginning",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "01-initialization::@fc80cf153e4a4ec80e1a",
-					"jsonFile" : "target-01-initialization-Debug-3f2456b6fc72899aee6c.json",
+					"jsonFile" : "target-01-initialization-Debug-345032dee19b14a3482d.json",
 					"name" : "01-initialization",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "02-iostream-intro::@6fa6d44f4fb66e7aff56",
-					"jsonFile" : "target-02-iostream-intro-Debug-2d26971425acc3bdd996.json",
+					"jsonFile" : "target-02-iostream-intro-Debug-c36593d8f7943e2b444b.json",
 					"name" : "02-iostream-intro",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "03-first-program::@b41e343d2f1197696d35",
-					"jsonFile" : "target-03-first-program-Debug-f3758b850d6ab2df1d76.json",
+					"jsonFile" : "target-03-first-program-Debug-47fd979eeef1ea6f0196.json",
 					"name" : "03-first-program",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "04-chapter01-quiz::@9eb64225de31dc3464fd",
-					"jsonFile" : "target-04-chapter01-quiz-Debug-12e3b422880a7a851da7.json",
+					"jsonFile" : "target-04-chapter01-quiz-Debug-5ab2be3f63ad11696686.json",
 					"name" : "04-chapter01-quiz",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "05-functions-intro::@5bf317e12d2c79430675",
-					"jsonFile" : "target-05-functions-intro-Debug-a64a6f914f6b4c917957.json",
+					"jsonFile" : "target-05-functions-intro-Debug-9b136ad53b002dc70619.json",
 					"name" : "05-functions-intro",
 					"projectIndex" : 6
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "06-conversions::@370f8e1a50f4dc0d28a3",
-					"jsonFile" : "target-06-conversions-Debug-c2c8fa109f168b4a2842.json",
+					"jsonFile" : "target-06-conversions-Debug-a7160de465dcee49ed3a.json",
 					"name" : "06-conversions",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "07-input-line::@1265147b36611a9297f4",
-					"jsonFile" : "target-07-input-line-Debug-7a2bc17711139f348686.json",
+					"jsonFile" : "target-07-input-line-Debug-175933877c6174555657.json",
 					"name" : "07-input-line",
 					"projectIndex" : 8
 				}
@@ -334,6 +334,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
