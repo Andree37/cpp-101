@@ -1,10 +1,3 @@
 # ninja log v5
-0	891	1657558327452677560	../04-chapter01-quiz/build/CMakeFiles/app.dir/main.cpp.o	18a2773debf249ac
-0	118	1660161492508319608	build.ninja	3e114fa171682e04
-956	1026	1657559592530365283	../05-functions-intro/build/05-functions-intro	ca0c219855e81127
-1049	1129	1657718410091265741	../07-input-line/build/07-input-line	a35edd1509d79dbb
-893	967	1657558327531809690	../04-chapter01-quiz/build/app	cdf517f1bf56381d
-961	1023	1657717691403533992	../06-conversions/build/06-conversions	db9a31ce5d381ff
-3	955	1657559592456561711	../05-functions-intro/build/CMakeFiles/05-functions-intro.dir/main.cpp.o	d3e68b4d5a6ed99f
-3	961	1657717691337925658	../06-conversions/build/CMakeFiles/06-conversions.dir/main.cpp.o	492975ed6b83c6ae
-5	1048	1657718410005796136	../07-input-line/build/CMakeFiles/07-input-line.dir/main.cpp.o	2676eb8773d35cff
+0	567	1700079730976737929	CMakeFiles/cpp-101.dir/main.cpp.o	c9c1879b7df7f8e8
+568	709	1700079731117833608	cpp-101	d5d709301d7ee455

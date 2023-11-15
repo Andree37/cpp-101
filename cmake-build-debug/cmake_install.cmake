@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andre/github/andree37/cpp-101
+# Install script for directory: /Users/andre/github/Andree37/cpp-101
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,19 +37,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/andre/github/andree37/cpp-101/00-beginning/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/01-initialization/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/02-iostream-intro/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/03-first-program/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/04-chapter01-quiz/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/05-functions-intro/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/06-conversions/build/cmake_install.cmake")
-  include("/Users/andre/github/andree37/cpp-101/07-input-line/build/cmake_install.cmake")
-
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -58,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/andre/github/andree37/cpp-101/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/andre/github/Andree37/cpp-101/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
