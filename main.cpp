@@ -5,6 +5,8 @@
 #include <iostream>
 #include <ostream>
 
+#include "classes.h"
+
 enum ECarTypes
 {
     Sedan,
@@ -75,6 +77,8 @@ int main()
     std::string ref = doSomethingWithStrings();
     ref += "!";
     std::cout << ref << std::endl;
+
+    usage();
 
     return 0;
 }
