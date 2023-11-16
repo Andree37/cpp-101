@@ -31,7 +31,7 @@ public:
     }
 
     // Overload the + operator.
-    Point operator+(const Point rhs) const;
+    Point operator+(const Point& rhs) const;
 
     // Overload the += operator
     Point& operator+=(const Point& rhs);
