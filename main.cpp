@@ -5,12 +5,32 @@
 #include <iostream>
 #include <ostream>
 
+enum ECarTypes
+{
+    Sedan,
+    Hatchback,
+    SUV,
+    Wagon
+};
+
+enum ECarTypes2 : uint8_t
+{
+    // 0
+    Sedan2,
+    // 1
+    Hatchback2,
+    // 254
+    SUV2 = 254,
+    // 255
+    Hybrid2
+};
+
 int doSomethingDefaultInts(const int a = 2, const int b = 4)
 {
     return a + b;
 }
 
-std::string& doSomethingWithStrings()
+std::string doSomethingWithStrings()
 {
     return "do something";
 }
@@ -34,7 +54,7 @@ int main()
     std::cout << myString.append("Mango");
 
     std::string foo = "I am foo";
-    std::string bar = "I am bar";
+    const std::string bar = "I am bar";
 
 
     std::string& fooRef = foo; // This creates a reference to foo.
@@ -52,7 +72,7 @@ int main()
     // The address of fooRef remains the same, i.e. it is still referring to foo.
 
     // references
-    std::string& ref = doSomethingWithStrings();
+    std::string ref = doSomethingWithStrings();
     ref += "!";
     std::cout << ref << std::endl;
 
