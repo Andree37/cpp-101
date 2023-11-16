@@ -6,6 +6,7 @@
 #include <ostream>
 
 #include "classes.h"
+#include "weird-class.h"
 
 enum ECarTypes
 {
@@ -79,6 +80,13 @@ int main()
     std::cout << ref << std::endl;
 
     usage();
+
+    // weird class
+    Point p1(1.0, 2.0);
+
+    Point p = p1 + Point(2.0, 3.0);
+
+    std::cout << p.x << " " << p.y << std::endl;
 
     return 0;
 }

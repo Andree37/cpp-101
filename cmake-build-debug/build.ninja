@@ -61,6 +61,12 @@ build CMakeFiles/cpp-101.dir/classes.cpp.o: CXX_COMPILER__cpp-101_unscanned_Debu
   OBJECT_DIR = CMakeFiles/cpp-101.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp-101.dir
 
+build CMakeFiles/cpp-101.dir/weird-class.cpp.o: CXX_COMPILER__cpp-101_unscanned_Debug /Users/andre/github/Andree37/cpp-101/weird-class.cpp || cmake_object_order_depends_target_cpp-101
+  DEP_FILE = CMakeFiles/cpp-101.dir/weird-class.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cpp-101.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp-101.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp-101
@@ -69,7 +75,7 @@ build CMakeFiles/cpp-101.dir/classes.cpp.o: CXX_COMPILER__cpp-101_unscanned_Debu
 #############################################
 # Link the executable cpp-101
 
-build cpp-101: CXX_EXECUTABLE_LINKER__cpp-101_Debug CMakeFiles/cpp-101.dir/main.cpp.o CMakeFiles/cpp-101.dir/classes.cpp.o
+build cpp-101: CXX_EXECUTABLE_LINKER__cpp-101_Debug CMakeFiles/cpp-101.dir/main.cpp.o CMakeFiles/cpp-101.dir/classes.cpp.o CMakeFiles/cpp-101.dir/weird-class.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/cpp-101.dir
   POST_BUILD = :
