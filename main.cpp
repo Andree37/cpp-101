@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include <ostream>
+#include <set>
+#include<map>
 
 #include "classes.h"
 #include "weird-class.h"
@@ -87,6 +89,69 @@ int main()
     Point p = p1 + Point(2.0, 3.0);
 
     std::cout << p.x << " " << p.y << std::endl;
+
+    // smart pointers
+    std::shared_ptr<int> pShared;
+    *pShared = 42;
+
+    std::shared_ptr<std::string> pSharedString(new std::string("Hello"));
+
+    // There are several kinds of smart pointers.
+    // The way you have to use them is always the same.
+    // This leads us to the question: when should we use each kind of smart pointer?
+    // std::unique_ptr - use it when you just want to hold one reference to
+    // the object.
+    // std::shared_ptr - use it when you want to hold multiple references to the
+    // same object and want to make sure that it's deallocated
+    // when all references are gone.
+    // std::weak_ptr - use it when you want to access
+    // the underlying object of a std::shared_ptr without causing that object to stay allocated.
+    // Weak pointers are used to prevent circular referencing.
+
+    // Containers
+    vector<string> my_vector;
+    my_vector.push_back("some value");
+    // to iterate we can do
+    for (int i = 0; i < my_vector.size(); i++)
+    {
+        cout << my_vector[i] << endl;
+    }
+
+    // or we can create an iterator
+    vector<string>::iterator it;
+    for (it = my_vector.begin(); it != my_vector.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
+    // sets
+    set<int> my_set;
+    my_set.insert(1);
+
+    // we can also iterate through sets using an iterator
+    set<int>::iterator it2;
+    for (it2 = my_set.begin(); it2 != my_set.end(); it2++)
+    {
+        cout << *it2 << endl;
+    }
+
+    // maps
+    std::map<string, int> my_map;
+    my_map.insert(pair<string, int>("one", 1));
+
+    map<string, int>::iterator it3;
+    for (it3 = my_map.begin(); it3 != my_map.end(); it3++)
+    {
+        cout << it3->first << " " << it3->second << endl;
+    }
+
+    it3 = my_map.find("one");
+    cout << it3->second;
+    // Output: 1
+
+    // NOTE: For hash maps, use unordered_map. They are more efficient but do
+    // not preserve order. unordered_map is available since C++11.
+
 
     return 0;
 }
