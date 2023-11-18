@@ -153,6 +153,45 @@ int main()
     // not preserve order. unordered_map is available since C++11.
 
 
+    // lambda
+    vector<pair<int, int>> points;
+    points.push_back(make_pair(1, 1));
+    points.push_back(make_pair(1, 2));
+    points.push_back(make_pair(2, 2));
+
+    sort(points.begin(), points.end(), [](const pair<int, int>& p1, const pair<int, int>& p2)
+    {
+        return p1.first < p2.first;
+    });
+
+    // capture variables
+    vector<int> dog_ids;
+    // number_of_dogs = 3;
+    for (int i = 0; i < 3; i++)
+    {
+        dog_ids.push_back(i);
+    }
+
+    int weight[3] = {30, 50, 10};
+
+    // Say you want to sort dog_ids according to the dogs' weights
+    // So dog_ids should in the end become: [2, 0, 1]
+
+    // Here's where lambda expressions come in handy
+
+    sort(dog_ids.begin(), dog_ids.end(), [&weight](const int& lhs, const int& rhs)
+    {
+        return weight[lhs] < weight[rhs];
+    });
+
+    // range for loop
+    vector<int> v = {0, 1, 2, 3, 4, 5};
+
+    for (int elem : v)
+    {
+        cout << elem << " ";
+    }
+
     return 0;
 }
 
